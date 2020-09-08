@@ -4,4 +4,6 @@
     <string name="idStrWhatBMI">What is BMI?</string>
     <string name="idStrCheckBMI">Check Your BMI</string>
     <string name="idStrFoodForHeakth">"Food For Health "</string>
+    <string name="idStrWeight">Weight</string>
+    <string name="idStrHeoght">Height</string>
 </resources>
