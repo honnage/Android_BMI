@@ -3,7 +3,9 @@ package com.example.bmi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +27,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void FoodForHealth (View v){
-        Intent i = new Intent(this,FoodForHealth.class);
+        Uri map = Uri.parse("geo:0,0?q="+"ร้านอาหารสุขภาพ");
+        Intent i = new Intent(Intent.ACTION_VIEW,map);
         startActivity(i);
+        if(i.resolveActivity(getPackageManager()) != null )
+            startActivity(i);
+        else
+            Log.d("ImpliotImtents","cannit handle this intent.");
     }
 }
