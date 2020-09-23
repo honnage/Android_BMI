@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">BMI</string>
     <string name="BMI_Title">BMI Application</string>
-    <string name="idStrWhatBMI">What is BMI?</string>
-    <string name="idStrCheckBMI">Check Your BMI</string>
-    <string name="idStrFoodForHeakth">"Food For Health "</string>
+    <string name="idStrWhatBMI">BMI คืออะไร?</string>
+    <string name="idStrCheckBMI">คำนวนน้ำหนัก BMI</string>
+    <string name="idStrFoodForHeakth">"ร้านอาหารเพื่อสุขภาพ"</string>
     <string name="idStrWeight">Weight</string>
     <string name="idStrHeight">Height</string>
     <string name="idStrDetailBMI">
@@ -26,4 +26,6 @@
     <string name="msgHeight">Your height is</string>
     <string name="msgWeight">Your weight is</string>
     <string name="msgBMI">Your BMI is</string>
+    <string name="msgWiki">วิกิ BMI</string>
+    <string name="msgArticle">บทความที่น่าสนใจ</string>
 </resources>
