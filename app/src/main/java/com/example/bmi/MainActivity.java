@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void FoodForHealth (View v){
-        Uri map = Uri.parse("geo:0,0?q="+"ร้านอาหารสุขภาพ");
+        Uri map = Uri.parse("geo:0,0?q="+"ร้านอาหารเพื่อสุขภาพ");
         Intent i = new Intent(Intent.ACTION_VIEW,map);
         startActivity(i);
         if(i.resolveActivity(getPackageManager()) != null )
